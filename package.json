@@ -1,0 +1,24 @@
+{
+  "name": "guess-the-logo",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "terser": "^5.21.0",
+    "typescript": "^5.0.2",
+    "vite": "^4.4.5",
+    "vite-plugin-singlefile": "^0.13.5"
+  },
+  "dependencies": {
+    "firebase": "^10.4.0",
+    "html-minifier-terser": "^7.2.0",
+    "roadroller": "^2.1.0",
+    "rollup": "^4.0.2",
+    "vite-plugin-minify": "^1.5.2"
+  }
+}
